@@ -4,6 +4,9 @@
 
 # from dotenv import load_dotenv
 # load_dotenv()
+import openai
+
+openai.api_key = 'sk-klsadjlkjajsd asd.....asdkj;ljsad'
 
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
